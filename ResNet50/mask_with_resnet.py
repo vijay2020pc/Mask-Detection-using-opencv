@@ -88,8 +88,8 @@ model = tf.keras.Sequential([
 model.summary()
 
 LR = 1e-5 # Keep it small when transfer learning
-EPOCHS = 0
-BS = 0
+EPOCHS = 20
+BS = 256
 
 model.compile(
   optimizer=tf.keras.optimizers.Adam(learning_rate=LR),
