@@ -1,7 +1,7 @@
 /* Changing body color to dark grey and text color to gainsboro(version of white) */
 body {
     color: gainsboro;
-    background-color: #33;
+    background-color: #333;
 }
 
 /* Changing sideline color to light gray and text color to black */
